@@ -6,9 +6,9 @@
 
 " Quit if syntax file is already loaded
 if version < 600
-  syntax clear
+    syntax clear
 elseif exists("b:current_syntax")
-  finish
+    finish
 endif
 
 command! -nargs=+ IcalHiLink hi def link <args>
@@ -47,7 +47,7 @@ IcalHiLink	icalParameter	Comment
 IcalHiLink	icalSetValue	Constant
 
 delcommand IcalHiLink
-  
+
 let b:current_syntax = "icalendar"
 
 "EOF vim: tw=78:ft=vim:ts=8
