@@ -5,7 +5,7 @@
 " Version:       0.3
 
 " Quit if syntax file is already loaded
-if version < 600
+if v:version < 600
     syntax clear
 elseif exists("b:current_syntax")
     finish
