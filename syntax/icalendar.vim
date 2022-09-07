@@ -1,3 +1,4 @@
+scriptencoding utf8
 " Vim syntax file
 " Language: icalendar <http://www.ietf.org/rfc/rfc2445.txt>
 " Current Maintainer: Václav Kubernát <vaclav@kubern.at>
