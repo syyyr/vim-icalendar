@@ -1,4 +1,4 @@
 augroup icalendar-detect
     autocmd!
-    autocmd! BufRead,BufNewFile *.ics set filetype=icalendar
+    autocmd! BufRead,BufNewFile *.ics setfiletype icalendar
 augroup END
